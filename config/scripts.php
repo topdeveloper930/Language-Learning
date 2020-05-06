@@ -1,0 +1,82 @@
+<?php
+
+return [
+	// External libraries
+	'google_platform'       => 'https://apis.google.com/js/platform.js',
+	'google_api'            => 'https://apis.google.com/js/api.js',
+	'google_api:client'     => 'https://apis.google.com/js/api:client.js',
+	'dataTables'            => 'https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js',
+	'dataTables-buttons'    => 'https://cdn.datatables.net/buttons/1.5.4/js/dataTables.buttons.min.js',
+	'dataTables-rowgroup'   => 'https://cdn.datatables.net/rowgroup/1.0.4/js/dataTables.rowGroup.min.js',
+	'charts-loader'         => 'https://www.gstatic.com/charts/loader.js',
+	'simple-jscalendar'     => 'https://cdn.jsdelivr.net/npm/simple-jscalendar@1.4.4/source/jsCalendar.min.js',
+	'jquery'                => 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js',
+	'jquery3_4'             => ('local' == config('app.env'))
+									? 'public/js/lib/jquery3.4.min.js'
+									: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js',
+	'typeahead'             => [ 'src' => 'public/js/typeahead.bundle.js', 'v' => '0.11.1'],
+	'validate'              => '//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js',
+	'jquery_ui'             => 'https://code.jquery.com/ui/1.12.1/jquery-ui.min.js',
+	'paypal_sdk'            => 'https://www.paypal.com/sdk/js?client-id=',
+	'stripe_sdk'            => 'https://js.stripe.com/v3/',
+
+	'flexslider'                     => [ 'src' => 'public/js/zedalabs/jquery-flexslider.js', 'v' => '2.2.2' ],
+	'rangeslider'                    => [ 'src' => 'public/js/zedalabs/rangeslider.js', 'v' => '2.3.0' ],
+
+	// Local
+	'modernizr'                      => 'schoolfinder/vendor/modernizr.js',
+	'moment'                         => 'js/fullcalendar/moment.min.js',
+	'manage-students'                => 'js/min/admin.manage-students.min.js',
+	'referral-program'               => 'js/min/referral-program.min.js',
+	'referral-claim'                 => 'js/min/referral-claim.min.js',
+	'refer-home'                     => 'js/min/refer-home.min.js',
+	'referral-history'               => 'js/min/referral-history.min.js',
+	'manage-referrals'               => 'js/min/admin.manage-referrals.min.js',
+	'admin-configs'                  => 'js/min/admin.configs.min.js',
+	'admin-ad-stats'                 => 'js/min/admin.ad-stats.min.js',
+	'admin-referral-program'         => 'js/min/admin.referral-program.min.js?v=1.0',
+	'admin-referral-stats'           => 'js/min/admin.referral-stats.min.js?v=1.0',
+	'admin-teachers-manage'          => 'js/min/admin.teachers-manage.min.js?v=1.0',
+	'student-calendar'               => [ 'src' => 'public/js/calendar.js', 'v' => '1.0' ],
+	'upcoming-classes'               => [ 'src' => 'public/js/upcoming-classes.js', 'v' => '1.0' ],
+	'teacher_availability_stats'     => [ 'src' => 'public/js/teacher_availability_stats.js', 'v' => '1.0' ],
+	'student_average_purchase_stats' => [ 'src' => 'public/js/student_average_purchase_stats.js', 'v' => '1.0' ],
+	'stats_signup_trial'             => [ 'src' => 'public/js/stats_signup_trial.js', 'v' => '1.3' ],
+	'student_dashboard'              => [ 'src' => 'public/js/student_dashboard.js', 'v' => 1.0 ],
+	'tutor'                          => [ 'src' => 'public/js/tutor.js', 'v' => 1.0 ],
+	'tutors'                         => [ 'src' => 'public/js/tutors.js', 'v' => 1.0 ],
+	'student_profile'                => [ 'src' => 'public/js/student_profile.js', 'v' => 1.0 ],
+	'slideout_menu'                  => [ 'src' => 'public/js/slideOutMenu.js', 'v' => 1.0 ],
+	'student_schedule_class'         => [ 'src' => 'public/js/student_schedule_class.js', 'v' => 1.0 ],
+	'student_refer'                  => [ 'src' => 'public/js/student_refer.js', 'v' => 1.0 ],
+	'student_transactions'           => [ 'src' => 'public/js/student_transactions.js', 'v' => 1.0 ],
+	'student_purchase'               => [ 'src' => 'public/js/student_purchase.js', 'v' => 1.0 ],
+	'purchase_result'                => [ 'src' => 'public/js/purchase_result.js', 'v' => 1.0 ],
+	'admin_payments_pending'         => [ 'src' => 'public/js/admin_payments_pending.js', 'v' => 1.0 ],
+	'progress_reports'               => [ 'src' => 'public/js/student_progress_reports.js', 'v' => 1.0 ],
+	'progress_report'                => [ 'src' => 'public/js/student_progress_report.js', 'v' => 1.0 ],
+	'credits'                        => [ 'src' => 'public/js/student_credits.js', 'v' => 1.0 ],
+	'teacher_profile'                => [ 'src' => 'public/js/teacher_profile.js', 'v' => 1.0 ],
+	'teacher_dashboard'              => [ 'src' => 'public/js/teacher_dashboard.js', 'v' => 1.0 ],
+	'teacher_balance'                => [ 'src' => 'public/js/teacher_balance.js', 'v' => 1.0 ],
+	
+	'flexslider_component'			 => [ 'src' => 'public/js/flexslider_component.js', 'v' => 1.0 ],
+
+	'pricing'						 => [ 'src' => 'public/js/pricing.js', 'v' => 1.0 ],
+	'faq'							 => [ 'src' => 'public/js/faq.js', 'v' => 1.0 ],
+	'trial_lesson'					 => [ 'src' => 'public/js/trial_lesson.js', 'v' => 1.0 ],
+	'quiz'							 => [ 'src' => 'public/js/quiz.js', 'v' => 1.0 ],
+	'quiz_result'					 => [ 'src' => 'public/js/quiz_result.js', 'v' => 1.0 ],
+	'teacher_trial_class_report'     => [ 'src' => 'public/js/teacher_trial_class_report.js', 'v' => 1.0 ],
+	'home'    						 => [ 'src' => 'public/js/home.js', 'v' => 1.0 ],
+	'course'						 => [ 'src' => 'public/js/course.js', 'v' => 1.0 ],
+	'teacher_class_log'              => [ 'src' => 'public/js/teacher_class_log.js', 'v' => 1.0 ],
+	'affiliates'					 => [ 'src' => 'public/js/affiliates.js', 'v' => 1.0 ],
+	'gift_cards'					 => [ 'src' => 'public/js/gift_cards.js', 'v' => 1.0 ],
+	'gift_card_claim'				 => [ 'src' => 'public/js/gift_card_claim.js', 'v' => 1.0 ],
+	'gift_card_result'				 => [ 'src' => 'public/js/gift_card_result.js', 'v' => 1.0 ],
+	'gift_card_checkout'			 => [ 'src' => 'public/js/gift_card_checkout.js', 'v' => 1.0 ],
+	'teacher_student_evaluation'     => [ 'src' => 'public/js/teacher_student_evaluation.js', 'v' => 1.0 ]
+	
+	
+];

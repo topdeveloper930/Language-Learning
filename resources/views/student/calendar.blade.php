@@ -1,0 +1,1 @@
+@extends('student.legacy.calendar')

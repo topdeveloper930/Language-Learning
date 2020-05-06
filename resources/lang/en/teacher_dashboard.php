@@ -1,0 +1,53 @@
+<?php
+
+return [
+	'your_classes'    => 'Your classes',
+	'calendar'        => 'Calendar',
+	'upcoming'        => 'Upcoming classes',
+	'trial_classes'   => 'Trial classes to log',
+	'log_class'       => 'Log class',
+	'log_new_class'   => 'Log New Class',
+	'evaluation_note' => '<strong>Evaluating your students: </strong> Live Lingua language proficiency levels are based on the ACTFL (American Council on The Teaching of Foreign Languages) system of evaluations. <a href=":url">Learn more</a>',
+	'confirm_noshow'  => 'Confirm No Show',
+	'check_boxes'     => 'Please confirm that the student did not show up for the class by selected the 2 checkboxes below stating that you completed Live Lingua "<i>No Show</i>" procedures.',
+	'i_waited'        => 'I waited <u>15 minutes</u> and the student did not show up.',
+	'i_left_message'  => 'I left a message on their Skype chat letting them know I was waiting.',
+	'cancel'          => 'Cancel',
+	'choose'          => '-- choose --',
+	'ok'              => 'OK!',
+	'go'              => 'Go',
+	'required'        => 'This field is required',
+	'no_students'     => 'No students with credits sufficient to log class',
+	'with_student'    => 'With student',
+	'js' => [
+		'time'          => 'Time',
+		'student'       => 'Student',
+		'course'        => 'Course',
+		'length'        => 'Length',
+		'n_minutes'     => ':n minutes',
+		'type'          => 'Type',
+		'types'         => [ '<span class="badge">Trial</span>', '<span class="badge yellow">Paid</span>' ],
+		'start_class'   => 'Start class',
+		'reschedule'    => 'Re-schedule',
+		'today_'        => 'Today (:d)',
+		'completed'     => 'Completed',
+		'no_show'       => 'No show',
+		'no_response'   => 'Something went wrong.',
+		'report_saved'  => 'Your report saved',
+		'trial_header'  => 'Trial Class with :student,<br>:date',
+		'student_opt'   => ':s (:c, :n, :h hours)',
+		'class_type'    => ['', 'Private', '2 Students', '3 Students']
+	],
+	'student' => [
+		'age_range' => 'Student Age Range:',
+		'course'    => 'Course Requested',
+		'Level'     => 'Current Level:',
+		'email'     => 'Student Email:',
+		'skype'     => 'Student Skype:',
+		'location'  => 'Student Location:',
+		'timezone'  => 'Student Timezone:',
+		'studentDT' => 'Student Date & Time:',
+		'details'   => 'Additional Student Details:',
+		'review'    => 'Always review all this information carefully before giving a trial class.'
+	]
+];

@@ -1,0 +1,1 @@
+<link rel="shortcut icon" href="{!! asset('/public/images/favicon.png') !!}">

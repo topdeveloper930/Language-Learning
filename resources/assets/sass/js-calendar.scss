@@ -1,0 +1,66 @@
+// Variables
+@import "variables";
+
+// Simple jsCalendar
+@import "~simple-jscalendar/source/jsCalendar.css";
+
+.uc-header {
+  color: $brand-grey;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.jsCalendar-closed {
+  color: $brand-red;
+  border: none !important;
+  &:hover {
+    background-color: white !important;
+  }
+}
+.jsCalendar-dimmed,
+.jsCalendar-dimmed:hover {
+  color: $jsCalendar-dimmed !important;
+  background-color: white !important;
+}
+.text-black{
+  color: $brand-black;
+}
+#actionBlock {
+  border: 1px solid $brand-light-grey;
+  padding: 20px;
+  width:300px;
+  height: 300px;
+  overflow-y:scroll;
+  margin-top:4px;
+}
+.btn-calendar {
+  width:250px;
+  margin-bottom: 5px;
+  background: white;
+  &:hover {
+    color: white;
+    background: $brand-green;
+  }
+}
+.remark {
+  line-height: 14px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mt-44 {
+  margin-top: 44px;
+}
+.list-unstyled {
+  list-style: none;
+  input {
+    vertical-align: top;
+    margin-right: 4px;
+  }
+}

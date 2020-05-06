@@ -1,0 +1,2 @@
+// Customer's input fix: adds whitespace after comma, if not present, in the node with .comma-space class.
+document.querySelectorAll('.comma-space').forEach(n => n.innerHTML = n.innerHTML.replace(/,(?=[^\s])/g, ', '));

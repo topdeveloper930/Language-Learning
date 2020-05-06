@@ -1,0 +1,33 @@
+<?php
+
+return [
+	'your_classes'      => 'Your classes',
+	'schedule_class'    => 'Schedule class',
+	'upcoming'          => 'Upcoming classes',
+	'previous'          => 'Previous classes',
+	'nothing_scheduled' => 'Nothing scheduled',
+	'need_cancel'       => '<strong>Need to cancel a class?</strong> You can cancel a class until 24-hours before the scheduled class time or the class will be billed by the teacher.',
+	'learn_more'        => 'Learn more',
+	'teacher'           => 'Teacher',
+	'date_time'         => 'Date&nbsp;&amp;&nbsp;Time',
+	'countdown'         => 'Countdown',
+	'program'           => 'Program',
+	'length'            => 'Length',
+	'reschedule'        => 'Re-schedule',
+	'enter_classroom'   => 'Enter classroom',
+	'minutes'           => 'minutes',
+	'credits'           => '{0} There are no credits left, why not purchase more hours?|{1} There is still one credit left, why not schedule your next class?|[2,*] You have :credits credits left, why not schedule your next class?',
+	'purchase'          => 'Purchase Lessons',
+	'nothing_logged'    => 'No class logged yet',
+	'nothing_reported_yet' => 'Your completed lessons will appear here as soon as teacher submit a report.',
+	'course'            => 'Course',
+	'topics'            => 'Teacher\'s Notes',
+	'more'              => 'More',
+	'less'              => 'Less',
+	'n_minutes'         => ':n minutes',
+	'change_class'      => 'Change Class',
+	'quit'              => 'No',
+	'cancel_class'      => 'Cancel Class',
+	'confirm_delete'    => 'Yes, Proceed',
+	'are_you_sure'      => 'Are you sure you want to cancel <b>:lesson</b> lesson with <b>:teacher</b> scheduled for <b>:date_time</b>?'
+];
