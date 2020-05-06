@@ -1,0 +1,278 @@
+.page {
+  background: #fff;
+}
+
+.page.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  padding: 15px;
+}
+
+.page.main .video-panel {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page.main .video-panel .receiver-video-area {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+.page.main .video-panel .receiver-video-area .receiver-name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid #000;
+  font-size: 25px;
+  color: #fff;
+  padding: 0.5rem;
+  margin: 1px;
+}
+
+.page.main .video-panel .receiver-video-area .receiver-video-content-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+}
+
+.page.main .video-panel .receiver-video-area .sender-video-area {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: 245px;
+  height: 165px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.page.main .video-panel .receiver-video-area .sender-video-area .sender-video-content-wrapper {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  background-color: #000;
+}
+
+.page.main .video-panel .btn-group {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+.page.main .video-panel .btn-group .btn-control {
+  width: 90px;
+  height: 90px;
+  font-size: 40px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.page.main .video-panel .btn-group .btn-control:last-child {
+  margin-right: 0;
+}
+
+.page.main .video-panel .btn-group .btn-control.btn-red {
+  background: #ff3232;
+  color: #fff;
+}
+
+.page.main .video-panel .btn-group .btn-control.btn-white {
+  background: transparent;
+  color: #000;
+  border: 6px solid #333;
+}
+
+.page.main .video-panel .btn-group .btn-control.btn-white.active {
+  color: #ff3232;
+}
+
+.page.main .chat-history-panel {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page.main .chat-history-panel .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page.main .chat-history-panel .chat-history {
+  position: relative;
+  -webkit-box-flex: .5;
+      -ms-flex-positive: .5;
+          flex-grow: .5;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.page.main .chat-history-panel .chat-history .chat-username {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.page.main .chat-history-panel .chat-history .chat-username.sender {
+  color: #7db8de;
+}
+
+.page.main .chat-history-panel .chat-history .chat-username.receiver {
+  color: #73c1b6;
+}
+
+.page.main .chat-history-panel .chat-history .chat-message-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+  font-weight: bold;
+  color: #9da8a0;
+}
+
+.page.main .chat-history-panel .chat-editor-wrapper .vueditor {
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.page.main .chat-history-panel .chat-editor-wrapper .vueditor .ve-toolbar .btn-custom {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.page.main .chat-history-panel .chat-editor-wrapper .vueditor .ve-design img {
+  width: 30px;
+  height: 30px;
+}
+
+.modal.fade.show {
+  display: block;
+}
+
+.modal .modal-content {
+  padding: 15px;
+}
+
+.modal .modal-content .modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 0 1rem 0;
+}
+
+.modal .modal-content .modal-header .modal-title {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.modal .modal-content .modal-body {
+  padding: 15px;
+}
+
+.modal .modal-content .modal-body .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+}
+
+.modal .modal-content .modal-body .row:last-child {
+  margin-bottom: 0;
+}
+
+.modal .modal-content .modal-body .row label {
+  width: 120px;
+  text-align: right;
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+
+.modal .modal-content .modal-body .row select {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+
+.modal .modal-content .modal-body .row .level-meter {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.modal .modal-content .modal-body .row audio {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+
+.modal .modal-content .modal-footer {
+  padding: 1rem 0 0;
+}
+
